@@ -1,0 +1,1 @@
+ALTER TABLE `user_state` ADD `checkout_token` text DEFAULT '' NOT NULL;
