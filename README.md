@@ -22,6 +22,7 @@ Run `npm run check`, `npm test`, `npm run test:password` and `npm run test:accou
 - Unpaid order cancellation restores stock and releases welcome coupon use
 - One-use HELLOCALLIE coupon (10% off)
 - Chinese admin UI at `/admin`: logout, product/image/description edits, order details and fulfillment, support inbox and subscriber list
+- Admin image uploads, reorderable product galleries, preview-base uploads and editable personalization settings
 - Staff accounts with administrator, operator and read-only roles, explicit permissions, activation/reset links and account disabling
 - Manual offline payment confirmation requires a receipt note; status transitions are enforced server-side
 - User-scoped customer records; server-enforced staff permissions; same-origin mutation checks

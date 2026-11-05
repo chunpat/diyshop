@@ -29,6 +29,13 @@
       "when": 1793845108930,
       "tag": "0003_accounts_and_product_details",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1793858262048,
+      "tag": "0004_square_ultron",
+      "breakpoints": true
     }
   ]
 }
