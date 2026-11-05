@@ -13,7 +13,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "test": "node tests/api.mjs",
-    "check": "tsc --noEmit && node --check public/app.js && node --check public/backend.js && node --check public/admin.js && node --check public/commerce.js && node --check public/live-preview.js",
+    "check": "tsc --noEmit && node --check public/app.js && node --check public/backend.js && node --check public/admin.js && node --check public/admin-references.js && node --check public/commerce.js && node --check public/live-preview.js",
     "build:cloudflare": "node scripts/build-cloudflare.mjs",
     "deploy:cloudflare": "npm run build:cloudflare && node --dns-result-order=ipv4first ./node_modules/wrangler/bin/wrangler.js deploy --config cloudflare/wrangler.jsonc",
     "db:migrate:cloudflare": "node --dns-result-order=ipv4first ./node_modules/wrangler/bin/wrangler.js d1 migrations apply callie-store-db --remote --config cloudflare/wrangler.jsonc",

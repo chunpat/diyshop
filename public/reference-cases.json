@@ -1,0 +1,1381 @@
+{
+  "version": 1,
+  "researchedAt": "2026-11-05",
+  "sourceRegion": "UK（Callie 首页地区跳转）",
+  "note": "定制要点取自商品标题与公开介绍；排版建议为本项目归纳，未验证所有定制弹窗选项。图片为成品参考，不是空白底图。",
+  "cases": [
+    {
+      "id": "callie-48",
+      "title": "照片生日花麻布袋",
+      "category": "包袋",
+      "style": "照片花卉",
+      "source": "https://uk.callie.com/personalized-photo-birth-flower-jute-tote-bag-with-name-daily-use-beach-party-birthday-gift-for-women-friends-pdp-75738",
+      "observedFields": "照片、生日花、姓名",
+      "layoutSuggestion": "中部人像与花朵组合，下方独立姓名；祝福语可另加一行。",
+      "sourceImageCount": 11,
+      "images": [
+        {
+          "path": "/reference-assets/callie-48-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/66504ab170417f4995cf87ac9bf87783.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/66504ab170417f4995cf87ac9bf87783.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-48-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6b31ba3f4ebc3b9942e0b0957aa9ada6.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6b31ba3f4ebc3b9942e0b0957aa9ada6.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-48-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6a2a0350c1f287e406eb7c31bc8da6a7.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6a2a0350c1f287e406eb7c31bc8da6a7.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/66504ab170417f4995cf87ac9bf87783.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6b31ba3f4ebc3b9942e0b0957aa9ada6.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/6a2a0350c1f287e406eb7c31bc8da6a7.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/4b2329b36874e08834c413bc2b4e61e7.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/75132d7f32b9b269b0550730aad979c8.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/b06029927f1b6e13b0de09d9387633d5.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/e00e5d58495bd234ca11b92af327e7b1.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/4d2beee789416014b14dde63717da03e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/b704d1416446fbe3f55a8976089d37df.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/941ed476806cdcb3e6d576d58242e3d3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/9cea44ac613d6aeb9c6869685d9adea6.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-08",
+      "title": "水彩宠物照片夜灯",
+      "category": "灯具",
+      "style": "水彩肖像",
+      "source": "https://uk.callie.com/personalized-watercolor-pet-photo-dimmable-touch-control-led-night-light-with-name-and-adjustable-light-colors-christmas-gift-for-pet-lovers",
+      "observedFields": "宠物照片、姓名",
+      "layoutSuggestion": "宠物与花卉居中，姓名置于下方；柱形灯罩需适配曲面透视，底座单独展示。",
+      "sourceImageCount": 10,
+      "images": [
+        {
+          "path": "/reference-assets/callie-08-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/ac249f19aeb5a7c1b09451d217247215.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/ac249f19aeb5a7c1b09451d217247215.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-08-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/8bfaaac12fe2c60d195fa89ab66ed72e.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/8bfaaac12fe2c60d195fa89ab66ed72e.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-08-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/7b007c3b37c0f5a09db3c76a741e5013.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/7b007c3b37c0f5a09db3c76a741e5013.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/ac249f19aeb5a7c1b09451d217247215.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/8bfaaac12fe2c60d195fa89ab66ed72e.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/7b007c3b37c0f5a09db3c76a741e5013.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/7939fca40bb2d5f7a42bc826f0bdd0e9.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260915/83c5c15ea3484ec540092af375c93331.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260924/1a40e905a557134aaef303fd97e6a1cb.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/08937c5469c2b161395fcf12406d840d.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/89fcc794d16e9b74420c49e35087d406.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/f1e755660ee66cef2a3764764fe2e7fb.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260914/5f6ad6423d4f0d9ac7440099ce65cdb6.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-45",
+      "title": "涂鸦油画篮球照片毛毯",
+      "category": "毛毯",
+      "style": "油画肖像",
+      "source": "https://uk.callie.com/personalized-graffiti-oil-painting-style-basketball-player-photo-soft-throw-blanket-with-name-home-decor-birthday-gift-for-basketball-player-lover",
+      "observedFields": "篮球人物照片、姓名",
+      "layoutSuggestion": "主肖像叠涂鸦背景，底部大姓名；需要照片艺术化处理。",
+      "sourceImageCount": 10,
+      "images": [
+        {
+          "path": "/reference-assets/callie-45-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/724a88b532ce2b893fe4970853e19d4e.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/724a88b532ce2b893fe4970853e19d4e.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-45-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/86035e12dff952b2ae81a6b95e4d737f.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/86035e12dff952b2ae81a6b95e4d737f.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-45-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/87fab766eca87ea8595900e9e30c403f.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/87fab766eca87ea8595900e9e30c403f.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/724a88b532ce2b893fe4970853e19d4e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/86035e12dff952b2ae81a6b95e4d737f.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/87fab766eca87ea8595900e9e30c403f.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/215a2d973fbf149771f571427ac08313.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/c0e0a2a9f7b84b75994351dd9adfbdc9.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/eb3a0a11cedb0ba45890a9a3b1e0e3ef.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/61692b64f7a334a33ce45c95d8ad121e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/27e1f5f23363c40eed16b2355d830d3e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/23fba3492dcccd21afe1811e58ebc51b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/cef850c05d263b6b73e739968e70c833.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-50",
+      "title": "双照片刻字盒式项链",
+      "category": "首饰配件",
+      "style": "照片刻字",
+      "source": "https://uk.callie.com/personalized-oval-photo-locket-for-women-engraved-memorial-jewelry-gift",
+      "observedFields": "两张照片、刻字",
+      "layoutSuggestion": "两个椭圆照片区与外壳刻字分视图编辑。",
+      "sourceImageCount": 6,
+      "images": [
+        {
+          "path": "/reference-assets/callie-50-1.jpeg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/acb91261a92152a2e06e19563a512d5e.jpeg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/acb91261a92152a2e06e19563a512d5e.jpeg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-50-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/3ad916d04f2b6aaaa89a070e7251ca2d.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/3ad916d04f2b6aaaa89a070e7251ca2d.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-50-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/97f7c497adc05ab7661d5c87242471ad.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/97f7c497adc05ab7661d5c87242471ad.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/acb91261a92152a2e06e19563a512d5e.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/3ad916d04f2b6aaaa89a070e7251ca2d.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/97f7c497adc05ab7661d5c87242471ad.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/d772c57e5acb833986b17eb5b084198b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20230214/e3252a5ea29c9e2d8f2cb4f4d6955586.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240511/3c116a0d650b16578b27cb8c3d27f389.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-47",
+      "title": "生日花花束磁吸书签",
+      "category": "阅读文具",
+      "style": "生日花卉",
+      "source": "https://uk.callie.com/personalized-birth-flower-bouquet-multicolor-magnetic-pu-leather-bookmark-clip-with-name-birthday-gift-for-book-lovers",
+      "observedFields": "生日花、姓名",
+      "layoutSuggestion": "纵向花束配短姓名，折叠线避开主要文字。",
+      "sourceImageCount": 10,
+      "images": [
+        {
+          "path": "/reference-assets/callie-47-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/8258360d77154bb4af86f479efba48e0.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/8258360d77154bb4af86f479efba48e0.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-47-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/f5ca70a8604d8d8c43b66ebf1878b0a2.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/f5ca70a8604d8d8c43b66ebf1878b0a2.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-47-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/5edabad65f8f5aa4773f1f52edf60fd6.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/5edabad65f8f5aa4773f1f52edf60fd6.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/8258360d77154bb4af86f479efba48e0.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/f5ca70a8604d8d8c43b66ebf1878b0a2.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/5edabad65f8f5aa4773f1f52edf60fd6.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/e08365352b6963c507bbcf338fe4e752.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/7ebf046667b1e6c918b7cc913880443b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/030d8134d875309c6fad2e992492bfe1.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/6593a0a8348b639e9ec855cf7fe8cba3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260225/36dca4be0009acaf10a404fab06cac56.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260420/9322afb7fec81f4da48d597bac70d63b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260226/e4b2f3721561d16c2bc30b81578e3586.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-44",
+      "title": "条纹阴影字母行李牌",
+      "category": "旅行配件",
+      "style": "字母排版",
+      "source": "https://uk.callie.com/personalized-color-block-stripe-shadow-monogram-portable-luggage-tag-travel-use-birthday-business-trip-gift-for-traveler-family-friend-pdp-76440",
+      "observedFields": "首字母、配色",
+      "layoutSuggestion": "大字母与阴影错位，条纹底色作为单独图层。",
+      "sourceImageCount": 7,
+      "images": [
+        {
+          "path": "/reference-assets/callie-44-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/e66efaf5b7435f190751ada3c9fde10e.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/e66efaf5b7435f190751ada3c9fde10e.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-44-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/239d2bd83165d61de0f7a612d5ad0101.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/239d2bd83165d61de0f7a612d5ad0101.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-44-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/4ad19e3da723601e75668fb9801d2b1c.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/4ad19e3da723601e75668fb9801d2b1c.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/e66efaf5b7435f190751ada3c9fde10e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/239d2bd83165d61de0f7a612d5ad0101.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/4ad19e3da723601e75668fb9801d2b1c.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/37130933f3362f83ca26506f406ba535.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/67f2af63e83b2bb90e997077dfed7555.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/a615a3a788b99532ad84da163d69e806.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/4712a79310a0987e9c1d0dd33702f13a.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-15",
+      "title": "家庭多人姓名圣诞挂饰",
+      "category": "节庆摆件",
+      "style": "节日主题",
+      "source": "https://uk.callie.com/personalized-santa-claus-snowman-christmas-tree-1-8-names-glass-acrylic-ornament-with-text-and-year-home-decoration-christmas-gift-for-family",
+      "observedFields": "1–8 个姓名、文字、年份",
+      "layoutSuggestion": "人数决定图案槽位，顶部标题与底部年份单独管理。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-15-1.jpeg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/efd555786fd427c5d319c1f349d33dc6.jpeg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/efd555786fd427c5d319c1f349d33dc6.jpeg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-15-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/c8c2fd5486d4e36eca93f9aa3891f645.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/c8c2fd5486d4e36eca93f9aa3891f645.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-15-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/8629a4d84508f5ebfe4dfbc7ec6fbdf9.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/8629a4d84508f5ebfe4dfbc7ec6fbdf9.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/efd555786fd427c5d319c1f349d33dc6.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/c8c2fd5486d4e36eca93f9aa3891f645.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/8629a4d84508f5ebfe4dfbc7ec6fbdf9.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/ab4a8bb3be9939c0a17ba0b65978f5f5.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/b3e7847d41f0f2c3eabb67604fb6eecd.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/946e0433b527342b9c1e6218d1110bcd.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260902/fc242ce86b84b5a0b85dbcf70d511577.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260917/d256c48bfd462e4c8502f05976b6348c.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-39",
+      "title": "芭蕾字母姓名睡裤",
+      "category": "服饰",
+      "style": "满版图案",
+      "source": "https://uk.callie.com/personalized-ballet-theme-soft-pajama-pants-with-name-and-initial-daily-wear-birthday-christmas-gift-for-ballet-lovers-girls-women-pdp-79997",
+      "observedFields": "姓名、首字母、芭蕾元素",
+      "layoutSuggestion": "重复图案作背景，字母与姓名穿插排列，需区分左右裤片。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-39-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/fa3e141d89f0dc542c28c2dd3635903e.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/fa3e141d89f0dc542c28c2dd3635903e.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-39-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/18e084ec8e78c251430bebeec4ae0a01.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/18e084ec8e78c251430bebeec4ae0a01.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-39-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/dc8534a614f800028d53acea0558ba34.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/dc8534a614f800028d53acea0558ba34.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/fa3e141d89f0dc542c28c2dd3635903e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/18e084ec8e78c251430bebeec4ae0a01.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/dc8534a614f800028d53acea0558ba34.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/1c9ec234eacbc625444133ff985fee6b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/9d86567f5f8047964595693e934630de.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261030/e228af27645838d5d3bfe28cd6470d4c.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261102/48696599c742dd3e90c5a4ce49304aef.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261102/e18ee26b447a7956dc010a3b1fccb188.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-03",
+      "title": "贴布姓名灯芯绒包",
+      "category": "包袋",
+      "style": "可爱贴布",
+      "source": "https://uk.callie.com/personalized-cute-flower-lollipop-strawberry-name-corduroy-crossbody-bag-birthday-back-to-school-gift-for-girls-toddlers-kids",
+      "observedFields": "姓名、字母贴布",
+      "layoutSuggestion": "包体正面弧形或水平姓名，下方安排单个配件。",
+      "sourceImageCount": 6,
+      "images": [
+        {
+          "path": "/reference-assets/callie-03-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/a910b04ce719112df3184bd3eb2e53f4.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/a910b04ce719112df3184bd3eb2e53f4.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-03-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/69dd8047fe1e345803d7fca8dde1def9.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/69dd8047fe1e345803d7fca8dde1def9.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-03-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/592f4017c21317a5734c06e23952e388.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/592f4017c21317a5734c06e23952e388.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/a910b04ce719112df3184bd3eb2e53f4.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/69dd8047fe1e345803d7fca8dde1def9.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/592f4017c21317a5734c06e23952e388.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/6ced286d2c78251301ef612b6acbba17.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260528/8cece896eb03d7e47ef2298aeda75cc3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260522/9fe5bb240510867b506eeea6e7804ebc.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-10",
+      "title": "阅读人物灯芯绒托特包",
+      "category": "包袋",
+      "style": "人物场景",
+      "source": "https://uk.callie.com/personalized-cartoon-reading-character-birth-flower-large-capacity-corduroy-tote-bag-with-name-travel-essential-birthday-gift-for-book-lover-bookworm",
+      "observedFields": "阅读人物、生日花、姓名",
+      "layoutSuggestion": "人物与书本作为主图，姓名置于图案下方。",
+      "sourceImageCount": 7,
+      "images": [
+        {
+          "path": "/reference-assets/callie-10-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/06e44a1bea86dc8bbcfbc5f50875a657.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/06e44a1bea86dc8bbcfbc5f50875a657.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-10-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/c158e2aafb78068bc34317457e421528.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/c158e2aafb78068bc34317457e421528.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-10-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/7abea4ebad22147f2be252a1d6bbd0d3.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/7abea4ebad22147f2be252a1d6bbd0d3.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/06e44a1bea86dc8bbcfbc5f50875a657.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/c158e2aafb78068bc34317457e421528.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/7abea4ebad22147f2be252a1d6bbd0d3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/c234ac42dc066a955faf6904ba69e826.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260715/d503b6428a3d4668b0ed01ca99fc55cb.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260908/ce74f88b03dc29bf0ee627cd0f50a754.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260519/0fa374cec9fdcd56ece267ab0369fbdc.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-56",
+      "title": "生日花女孩化妆包",
+      "category": "包袋",
+      "style": "人物场景",
+      "source": "https://uk.callie.com/personalized-cartoon-girl-flying-birth-flower-portable-makeup-bag-with-name-birthday-anniversary-gift-for-women",
+      "observedFields": "女孩图案、生日花、姓名",
+      "layoutSuggestion": "花卉围绕人物，短姓名居中；注意拉链与包边留白。",
+      "sourceImageCount": 11,
+      "images": [
+        {
+          "path": "/reference-assets/callie-56-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/6b22baf9b9b574b2da6de83d7b6c5cdc.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/6b22baf9b9b574b2da6de83d7b6c5cdc.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-56-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/f8b96d4706446604852a0c235256527a.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/f8b96d4706446604852a0c235256527a.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-56-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/224c29a4aa61532f0954fdf4e98aefcd.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/224c29a4aa61532f0954fdf4e98aefcd.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/6b22baf9b9b574b2da6de83d7b6c5cdc.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/f8b96d4706446604852a0c235256527a.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250725/224c29a4aa61532f0954fdf4e98aefcd.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250702/761973e40c3a33f52a6f4d4bad95618d.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/ea52baa2961a59766af771a0c130a4fa.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/8b03a5d819e29d3a63b0ea97074cfc74.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/bd1d7a29d8173142034c4523482ed9e5.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250709/91bd8d1c941e13cfbbfd274ae588c50c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/5b5efb151e9a0bf3bdbd043a357652a2.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250702/5193705494a76a05410862fe68e4b91c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250701/4148e7413ee0ac52faf508583083fb6b.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-01",
+      "title": "佩斯利花纹字母书签",
+      "category": "阅读文具",
+      "style": "复古花纹",
+      "source": "https://uk.callie.com/personalized-bright-paisley-floral-doodle-letter-name-magnetic-bookmark-clip-school-office-stationary-supplies-birthday-reading-gift-for-bookworms",
+      "observedFields": "字母、姓名",
+      "layoutSuggestion": "花纹填充大字母，细姓名与大字母形成层级。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-01-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/03159ef8ee04ccfbdb257a7a1b954afc.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/03159ef8ee04ccfbdb257a7a1b954afc.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-01-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/ae990be490a6e34f19804540b2853e54.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/ae990be490a6e34f19804540b2853e54.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-01-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/1168005451aa6cfceef91cf09ea6bc70.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/1168005451aa6cfceef91cf09ea6bc70.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/03159ef8ee04ccfbdb257a7a1b954afc.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/ae990be490a6e34f19804540b2853e54.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/1168005451aa6cfceef91cf09ea6bc70.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241218/ba950b30293991343ea3b324f5937919.gif",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/c389f85ab4b5815e0f68b11e29105959.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/4d06c1186afdfb1364d3176afb0bcaf1.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/54eaece4a0da974de89373953ccd70ae.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241118/3f493fafe1682f40d45b87fa66b6aab1.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-52",
+      "title": "教师苹果铅笔波浪书签",
+      "category": "阅读文具",
+      "style": "教师主题",
+      "source": "https://uk.callie.com/personalized-retro-multicolor-apple-pencil-notebook-magnetic-wavy-bookmark-clip-with-text-teacher-appreciation-birthday-gift-for-teachers-book-lovers",
+      "observedFields": "文字、教师元素",
+      "layoutSuggestion": "苹果、铅笔与笔记本组合，短标题和姓名分区。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-52-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/d27c1ca43d2ce2ffba41fc30f6ac5b29.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/d27c1ca43d2ce2ffba41fc30f6ac5b29.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-52-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/3e7f78ac29d2692e45b9605256626ca7.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/3e7f78ac29d2692e45b9605256626ca7.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-52-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/9f3d915d26f798f7ad98ac40fe57229b.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/9f3d915d26f798f7ad98ac40fe57229b.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/d27c1ca43d2ce2ffba41fc30f6ac5b29.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/3e7f78ac29d2692e45b9605256626ca7.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/9f3d915d26f798f7ad98ac40fe57229b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/718ba12ff6ffe34f86d342205be9c3f4.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/f9e52ce692c2c323fdb82459aa5e4619.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/087f182c6310e3090486f1e9877b3bfe.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/abab37dfa869b2b69c87329cbc185320.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260424/5d0fc5608064c708341a43c16e3a0e0c.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-49",
+      "title": "阅读人物电子书保护壳",
+      "category": "阅读文具",
+      "style": "人物场景",
+      "source": "https://uk.callie.com/personalized-3d-effect-artwork-cartoon-reading-character-kindle-case-with-name-for-multiple-models-daily-use-birthday-gift-for-book-lover-bookworm",
+      "observedFields": "阅读人物、姓名、设备型号",
+      "layoutSuggestion": "人物主画面与姓名分层，模板应随设备尺寸变化。",
+      "sourceImageCount": 7,
+      "images": [
+        {
+          "path": "/reference-assets/callie-49-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/5cfc2bfe772746bcadbf81617e4204b8.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/5cfc2bfe772746bcadbf81617e4204b8.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-49-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/3619dd964f635b2f9b689b230694af80.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/3619dd964f635b2f9b689b230694af80.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-49-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/21d72c9b24c475e91996d8d16819f693.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/21d72c9b24c475e91996d8d16819f693.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/5cfc2bfe772746bcadbf81617e4204b8.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/3619dd964f635b2f9b689b230694af80.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/21d72c9b24c475e91996d8d16819f693.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/0f98104b52268d28d249d2e39008ea26.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/2f25f5056b9b6197eef310fc96571682.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/9771efcd04f84d87b96c75f7c726817a.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260826/f01e0ae2d0862ecb0931861b964c8d7a.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-13",
+      "title": "雪人姓名木质灯饰",
+      "category": "灯具",
+      "style": "节日主题",
+      "source": "https://uk.callie.com/personalized-cute-snowman-led-light-wooden-ornament-with-name-christmas-tree-stocking-decor-winter-holiday-party-favors-gift-for-family-kids",
+      "observedFields": "雪人图案、姓名",
+      "layoutSuggestion": "轮廓造型固定，姓名放在正面清晰区域。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-13-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251117/da54387b72d057dd6b29c005b94e80d6.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251117/da54387b72d057dd6b29c005b94e80d6.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-13-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251112/539bc38df06cb6e2429c44feefbd0d7b.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251112/539bc38df06cb6e2429c44feefbd0d7b.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-13-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/c98f396657e58d2ca80a5e09770c4c86.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/c98f396657e58d2ca80a5e09770c4c86.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251117/da54387b72d057dd6b29c005b94e80d6.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251112/539bc38df06cb6e2429c44feefbd0d7b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/c98f396657e58d2ca80a5e09770c4c86.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250903/385c0bbf14f81c4251431617755f5ed7.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/7b3507449a3bf73e88233453467378d7.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20231018/dc629664725923fd9aecb6775369c389.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/1e4d5ccc99a0c35c48417df9df9bcc32.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20241105/036ed584bd0286b9d8d2e7dc438a3cb4.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20231120/03a4d7fac70be7f8d695a678e5c5c86f.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-07",
+      "title": "油画宠物照片围巾",
+      "category": "服饰",
+      "style": "油画肖像",
+      "source": "https://uk.callie.com/personalized-realistic-oil-painting-style-pet-photo-soft-tassel-scarf-shawl-with-name-winter-accessory-christmas-birthday-gift-for-pet-owners-lovers-pdp-75243",
+      "observedFields": "宠物照片、姓名",
+      "layoutSuggestion": "宠物肖像与姓名适配细长织物，避开流苏区域。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-07-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/c2162ee01b9b1bf2362797f43fd66751.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/c2162ee01b9b1bf2362797f43fd66751.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-07-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/3a3db5d56357a5b4afada35801231ba3.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/3a3db5d56357a5b4afada35801231ba3.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-07-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/bcf2e21753c03a93a2a8c770432d8523.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/bcf2e21753c03a93a2a8c770432d8523.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/c2162ee01b9b1bf2362797f43fd66751.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/3a3db5d56357a5b4afada35801231ba3.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/bcf2e21753c03a93a2a8c770432d8523.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/59bf14711b1b4b8f08e54858e153f9fc.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/c7ec111e89c01e35974b40512be19292.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/69f44f38e80a295d2326d419769c6586.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/aabfc01fda64b69d9672fcbbe94daeb0.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/1085c20ab85cb66f7124bb3fe3895f02.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261009/1f9347ebe606cbd183e387a9fd5f9c20.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-04",
+      "title": "生日花姓名流苏围巾",
+      "category": "服饰",
+      "style": "生日花卉",
+      "source": "https://uk.callie.com/personalized-multicolor-birth-flower-soft-warm-tassel-scarf-shawl-with-name-daily-wear-winter-accessory-christmas-birthday-gift-for-women",
+      "observedFields": "生日花、姓名",
+      "layoutSuggestion": "花朵沿长边排布，姓名放在端部独立区域。",
+      "sourceImageCount": 10,
+      "images": [
+        {
+          "path": "/reference-assets/callie-04-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/da8018121073ab703730f8654d748edd.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/da8018121073ab703730f8654d748edd.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-04-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261010/1abd11ed09b693bbe70d0bfa14d4b784.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261010/1abd11ed09b693bbe70d0bfa14d4b784.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-04-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/b9f68bd9c3d5abc8a09ec6349c2ea48e.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/b9f68bd9c3d5abc8a09ec6349c2ea48e.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/da8018121073ab703730f8654d748edd.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261010/1abd11ed09b693bbe70d0bfa14d4b784.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/b9f68bd9c3d5abc8a09ec6349c2ea48e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/dabe919eb1dd203ba36107f9d8639033.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/63338e950e4690eb54509e61d1235d34.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/29225a033e67834da90769b2ac6d384b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/e8dbfa61dd0daa31ae4a589dabc99da8.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/d49b12ad04edac182f6af76935c526ca.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260920/e5f81339a0e0accc71fe74e27bcd9bf0.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260909/0526c779216166bd9053aea338fa0049.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-24",
+      "title": "彩色照片词云毛毯",
+      "category": "毛毯",
+      "style": "照片拼贴",
+      "source": "https://uk.callie.com/personalized-colorful-photo-word-cloud-large-soft-throw-blanket-with-name-home-decor-birthday-gift-for-kid",
+      "observedFields": "照片、姓名、词云",
+      "layoutSuggestion": "照片与文字云交错，姓名作视觉中心。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-24-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/2ab789078bc305806a2264fa3589b5a1.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/2ab789078bc305806a2264fa3589b5a1.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-24-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/ae947832a95f337dbf1df2ebcc05831c.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/ae947832a95f337dbf1df2ebcc05831c.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-24-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/74177c4113a632766181d33c900b18af.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/74177c4113a632766181d33c900b18af.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/2ab789078bc305806a2264fa3589b5a1.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/ae947832a95f337dbf1df2ebcc05831c.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/74177c4113a632766181d33c900b18af.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/8a45b971a695ca42bceffb3de5301555.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/1ef3a3fb1d80e532d8bed0cb6d696afe.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/f0510c109715759579dd087c01b20a6a.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/57a5c6aa7322e215afa2bc75c44f60a5.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/23fba3492dcccd21afe1811e58ebc51b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260806/cef850c05d263b6b73e739968e70c833.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-26",
+      "title": "游戏玩家资料卡毛毯",
+      "category": "毛毯",
+      "style": "游戏主题",
+      "source": "https://uk.callie.com/personalized-player-profile-photo-soft-throw-blanket-with-name-and-level-home-decor-game-night-birthday-gift-for-game-lovers",
+      "observedFields": "照片、姓名、等级",
+      "layoutSuggestion": "按资料卡分区：头像、姓名、等级各自独立。",
+      "sourceImageCount": 11,
+      "images": [
+        {
+          "path": "/reference-assets/callie-26-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/bcffb3804d801b436ee1b303f86cfa77.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/bcffb3804d801b436ee1b303f86cfa77.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-26-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/051cd8100c9f2c93361d436f24463b42.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/051cd8100c9f2c93361d436f24463b42.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-26-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/1d53f6500a5e3976dbb0eed9162528da.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/1d53f6500a5e3976dbb0eed9162528da.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/bcffb3804d801b436ee1b303f86cfa77.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/051cd8100c9f2c93361d436f24463b42.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/1d53f6500a5e3976dbb0eed9162528da.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/fd67c50339b7f7bbfcc8f0de853f5eca.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/ea9391975d174ae44bfe03540d53fbbe.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261015/b330ce98761cd868ee9afc15f82ec95c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261012/9a37b9f09fe26fce6316bd49df4ddfd9.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260921/76a509087c6207cfb792cd4ad9ef2a76.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/7932d4c85bda3e666bc71e2db453438a.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260914/23fba3492dcccd21afe1811e58ebc51b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260914/3100b610b6ce55665612e6494f28ffea.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-46",
+      "title": "像素越野卡车毛毯",
+      "category": "毛毯",
+      "style": "像素插画",
+      "source": "https://uk.callie.com/personalized-pixel-art-off-road-truck-adventure-soft-throw-blanket-with-name-home-decor-birthday-gift-for-boy-truck-lover",
+      "observedFields": "卡车图案、姓名",
+      "layoutSuggestion": "像素场景作主图，下方姓名使用清晰粗字。",
+      "sourceImageCount": 10,
+      "images": [
+        {
+          "path": "/reference-assets/callie-46-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/1add377f1fd0874b21c0c7a9d578cb94.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/1add377f1fd0874b21c0c7a9d578cb94.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-46-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/7cc3a9e62761cbc6071062bba044ea4d.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/7cc3a9e62761cbc6071062bba044ea4d.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-46-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/c9000a0577614759293b2c8f352128f5.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/c9000a0577614759293b2c8f352128f5.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/1add377f1fd0874b21c0c7a9d578cb94.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/7cc3a9e62761cbc6071062bba044ea4d.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/c9000a0577614759293b2c8f352128f5.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/d198ea278fca2fb253e6b61317c4d792.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/8a38c68207bfa02feec559945f118416.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/56e7e234883082b05bd57c41495b6ca3.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/6f74a2b92797e33b69babe98df77dab8.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/27e1f5f23363c40eed16b2355d830d3e.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/23fba3492dcccd21afe1811e58ebc51b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260907/cef850c05d263b6b73e739968e70c833.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-21",
+      "title": "啦啦队人物姓名毛毯",
+      "category": "毛毯",
+      "style": "人物场景",
+      "source": "https://uk.callie.com/personalized-cheerleading-cartoon-character-multicolor-soft-throw-blanket-with-name-home-decor-birthday-team-gift-for-cheerleaders-coaches",
+      "observedFields": "啦啦队人物、姓名",
+      "layoutSuggestion": "人物居中，队伍色与姓名分层配置。",
+      "sourceImageCount": 11,
+      "images": [
+        {
+          "path": "/reference-assets/callie-21-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/92c225c9e476a373ce2861049da43905.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/92c225c9e476a373ce2861049da43905.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-21-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251208/f889291ea7103ec104e75910579a54a6.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251208/f889291ea7103ec104e75910579a54a6.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-21-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/e98cc77f43184eb6318f6441cf9827d6.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/e98cc77f43184eb6318f6441cf9827d6.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/92c225c9e476a373ce2861049da43905.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251208/f889291ea7103ec104e75910579a54a6.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/e98cc77f43184eb6318f6441cf9827d6.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/9de6672f3590b1f62d13d0c53ec5f298.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251208/1040e2a94909053f361a8b9035beecc6.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/f5546db9079ddfbe36ae62ecdd6f417e.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/db14e374f73e1d7e84ba9b3ee70492c4.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20251031/faf7288c983596c2136992a36c854470.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260602/9167d3a8996abf796fb894982d69978b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250917/fd299f6ee6e0d67c069917e40dfa3d2c.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20250917/b4c9c62260d2add5b0bcb66ccdd6305d.jpeg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-27",
+      "title": "油画宠物纪念毛毯",
+      "category": "毛毯",
+      "style": "油画肖像",
+      "source": "https://uk.callie.com/personalized-oil-painting-style-pet-photo-soft-throw-blanket-with-name-home-decor-birthday-pet-memorial-gift-for-pet-lovers",
+      "observedFields": "宠物照片、姓名",
+      "layoutSuggestion": "大幅宠物肖像配底部姓名，纪念语作为可选新增区域。",
+      "sourceImageCount": 14,
+      "images": [
+        {
+          "path": "/reference-assets/callie-27-1.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3d9c067388477203a828a1961a816bfd.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3d9c067388477203a828a1961a816bfd.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-27-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3bef538caf7308781aea64327f873b84.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3bef538caf7308781aea64327f873b84.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-27-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260812/e4d8eceb52731ebfb1ffb6c40513f993.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260812/e4d8eceb52731ebfb1ffb6c40513f993.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3d9c067388477203a828a1961a816bfd.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/3bef538caf7308781aea64327f873b84.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260812/e4d8eceb52731ebfb1ffb6c40513f993.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260617/2be38e2728f9c74661eb7ba6ccd1364c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260603/8b53fcba55d2f376e7e787d647637d3b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260603/cc7c85750e3e24a8b3e4d6b98390495c.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260617/3927efd49ad7ed097d50bbd17f05fe3c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260703/df30bf0449e68c5f9bc8933c7e4462c1.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260617/22359285665519aef395221009d9a775.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260602/9167d3a8996abf796fb894982d69978b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/5b6b1905ecab9c3ab751771c9cb9bc3a.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260729/6577ac90be0e200e631b38ae789630e3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260819/b4d8d7f609ca509ad7b28edccccaa654.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260519/b4c9c62260d2add5b0bcb66ccdd6305d.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-42",
+      "title": "霓虹游戏手柄毛毯",
+      "category": "毛毯",
+      "style": "游戏主题",
+      "source": "https://uk.callie.com/personalized-game-controller-gradient-neon-fire-cozy-throw-blanket-with-name-home-decor-birthday-christmas-game-night-gift-for-kids-gamers-pdp-76133",
+      "observedFields": "手柄图案、姓名",
+      "layoutSuggestion": "对称手柄与火焰背景，中间或底部放大姓名。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-42-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/0dc537e398868baea30e44f43548f01b.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/0dc537e398868baea30e44f43548f01b.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-42-2.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/9c9df9c21f701bc1f314a72150e8a554.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/9c9df9c21f701bc1f314a72150e8a554.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-42-3.jpg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/fc2f4e94c30641260b7e820b42808235.jpg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/fc2f4e94c30641260b7e820b42808235.jpg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/0dc537e398868baea30e44f43548f01b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/9c9df9c21f701bc1f314a72150e8a554.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/fc2f4e94c30641260b7e820b42808235.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/da2b64e0122b201e695f83bb195b97b3.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/702d8005388833f2c779c23ff29df27b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/8f6fa99088c39f2f2d3cffd8423e8b8e.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/9167d3a8996abf796fb894982d69978b.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/fd299f6ee6e0d67c069917e40dfa3d2c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/79c8449165c8f5bcaeb9156535c13145.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-00",
+      "title": "感温照片刻字手链",
+      "category": "首饰配件",
+      "style": "照片刻字",
+      "source": "https://uk.callie.com/personalized-heatactivated-photo-bracelet-with-engraved-text-birthday-anniversary-memorable-gift-for-women-men",
+      "observedFields": "照片、刻字",
+      "layoutSuggestion": "照片窗与文字区域独立；感温显影需专门展示状态。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-00-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/9258453563079a350ac20c70593b680b.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/9258453563079a350ac20c70593b680b.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-00-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/4a40379050acec7eb8224d614adede4b.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/4a40379050acec7eb8224d614adede4b.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-00-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/a641285adcf14337717fb550918a7e28.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/a641285adcf14337717fb550918a7e28.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/9258453563079a350ac20c70593b680b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/4a40379050acec7eb8224d614adede4b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/a641285adcf14337717fb550918a7e28.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260929/32b09ea78293b2ec5cb19fd08e118005.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260918/15e408c8bf70fc7251fa655d6903ac4a.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/3f86f5d493f5249326e02c901d3a9b93.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/facdf10b98e0000f54b3c05dc9c3793c.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261013/2a654651dca7f057839b6d800c620ba7.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260810/91cb0fef18e2b41d383fb158213138eb.jpeg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-41",
+      "title": "生日花姓名钥匙扣",
+      "category": "首饰配件",
+      "style": "生日花卉",
+      "source": "https://uk.callie.com/personalized-birth-flower-pu-leather-keychain-with-name-and-daisy-bead-charm-daily-use-birthday-gift-for-family-friends",
+      "observedFields": "生日花、姓名",
+      "layoutSuggestion": "纵向花朵配小字号姓名，吊饰与皮牌分层。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-41-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/d4deb4baab85300e9b09d21aa7a3da7b.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/d4deb4baab85300e9b09d21aa7a3da7b.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-41-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/daeb68d73146f907f62e52d4d0d9a316.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/daeb68d73146f907f62e52d4d0d9a316.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-41-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/eab14738df5e5d1a38b50918a5418255.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/eab14738df5e5d1a38b50918a5418255.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/d4deb4baab85300e9b09d21aa7a3da7b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/daeb68d73146f907f62e52d4d0d9a316.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/eab14738df5e5d1a38b50918a5418255.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/0f1dc1a7c3096381ef453573f01d0a68.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/8b14e7532fc086940d0fea6145ca4bd4.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/79613836622eeefcf70782a9a3f55791.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/de05ccb4c95b5e2d859ac7c7d2da41d7.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260814/5db18b70530198dbbc888ab954263a60.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-59",
+      "title": "书本生日花首饰盒",
+      "category": "首饰配件",
+      "style": "生日花卉",
+      "source": "https://uk.callie.com/personalized-book-birth-flower-travel-jewelry-box-portable-case-with-name-birthday-birthday-bridemaid-gift-for-book-lover-women",
+      "observedFields": "姓名、书本、生日花",
+      "layoutSuggestion": "盒盖上方插画，下方姓名；边框内保留安全区。",
+      "sourceImageCount": 6,
+      "images": [
+        {
+          "path": "/reference-assets/callie-59-1.jpeg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/a6ab2689a1632eb77fd85adbe64d3e0e.jpeg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/a6ab2689a1632eb77fd85adbe64d3e0e.jpeg?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-59-2.jpeg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/1eb1062b20db8325b692935c7624b023.jpeg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/1eb1062b20db8325b692935c7624b023.jpeg?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-59-3.jpeg",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/bd49c563f0bfcbd9085a912756a200bc.jpeg",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/bd49c563f0bfcbd9085a912756a200bc.jpeg?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/a6ab2689a1632eb77fd85adbe64d3e0e.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/1eb1062b20db8325b692935c7624b023.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/bd49c563f0bfcbd9085a912756a200bc.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/361fb1fe71405116d9308f83aca7a428.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/8ab0a07eeed3c46e9767f052a3d76c6d.jpeg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20240123/0bae0e9cef3233eedbeaed494223ba1f.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-54",
+      "title": "运动姓名号码行李牌",
+      "category": "旅行配件",
+      "style": "运动主题",
+      "source": "https://uk.callie.com/personalized-sports-pattern-multicolor-luggage-tag-with-name-and-number-travel-accessories-team-birthday-gift-for-travelers-students",
+      "observedFields": "姓名、号码、运动图案",
+      "layoutSuggestion": "号码作主视觉，姓名与运动元素分上下区域。",
+      "sourceImageCount": 8,
+      "images": [
+        {
+          "path": "/reference-assets/callie-54-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/be638b190aa6c37d4aa707f46d8857c5.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/be638b190aa6c37d4aa707f46d8857c5.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-54-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/e28a7d80561befefe93b88cc5ee57f2a.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/e28a7d80561befefe93b88cc5ee57f2a.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-54-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/4dda3dff5a54e595eafec83bb42acb59.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/4dda3dff5a54e595eafec83bb42acb59.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/be638b190aa6c37d4aa707f46d8857c5.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/e28a7d80561befefe93b88cc5ee57f2a.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/4dda3dff5a54e595eafec83bb42acb59.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/f9044193cb42c046249c19437a547635.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/b29d0b2c1602afa3647d96e3e67379c0.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/efd5b4748f91c772739876709bc23a31.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/3c222a2208765decdf58f50521c4cd5f.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260828/3925ca491121271b455595b0d286c723.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-17",
+      "title": "水彩宠物圣诞贺卡",
+      "category": "节庆摆件",
+      "style": "水彩肖像",
+      "source": "https://uk.callie.com/personalized-watercolor-style-christmas-themed-pet-photo-greeting-card-with-text-christmas-holiday-new-year-gift-for-family-friends-pet-owners",
+      "observedFields": "宠物照片、文字",
+      "layoutSuggestion": "照片置于节日框内，下方贺词独立成段。",
+      "sourceImageCount": 9,
+      "images": [
+        {
+          "path": "/reference-assets/callie-17-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/ed2df12804caa6e205c1cd6be1ba5a38.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/ed2df12804caa6e205c1cd6be1ba5a38.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-17-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/2465e43b445cbbeb70156b1ec63d8fa6.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/2465e43b445cbbeb70156b1ec63d8fa6.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-17-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/a6fedd86e84dfca70e4d40540e741f25.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/a6fedd86e84dfca70e4d40540e741f25.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/ed2df12804caa6e205c1cd6be1ba5a38.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/2465e43b445cbbeb70156b1ec63d8fa6.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/a6fedd86e84dfca70e4d40540e741f25.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/2091da0984a8cf2ba758ca08bfabe3d6.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/7082269217ffb91cfb5af84000ec937d.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260918/7e6fc97c69bd6e8ad880670d5ed3f048.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/9ba4972f2de928b6bb8d69fd18a0b693.jpg",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260827/72637e882dc80f67a324b20f0e7a707b.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260911/95cf689c8e47c234fc277143eb2e3063.jpg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-19",
+      "title": "雪花宠物照片圣诞袜",
+      "category": "节庆摆件",
+      "style": "节日主题",
+      "source": "https://uk.callie.com/personalized-christmas-theme-snowflake-pet-photo-christmas-stocking-with-name-home-decoration-christmas-gift-for-pet-lovers",
+      "observedFields": "宠物照片、姓名",
+      "layoutSuggestion": "袜身放照片，袜口姓名独立定位，区分不同材质区域。",
+      "sourceImageCount": 7,
+      "images": [
+        {
+          "path": "/reference-assets/callie-19-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cbecd54ad356d60ccb6d4eefd455dd08.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cbecd54ad356d60ccb6d4eefd455dd08.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-19-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cf97d9d1839d9f45a5b283aab496e664.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cf97d9d1839d9f45a5b283aab496e664.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-19-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/067209da41306abaa4343e7df1c292e2.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/067209da41306abaa4343e7df1c292e2.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cbecd54ad356d60ccb6d4eefd455dd08.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/cf97d9d1839d9f45a5b283aab496e664.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/067209da41306abaa4343e7df1c292e2.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/c6e1bd92fd870efeb96722f8dfc02bd3.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/ec245c287a4041ff47a8b6b81ea99bf2.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/e0b2aeb06308db11d0b7f49482b176e2.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20260821/f81f2b2d0358ed6de5142e4360df1d9a.jpeg"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    },
+    {
+      "id": "callie-28",
+      "title": "夸张漫画照片陶瓷挂饰",
+      "category": "节庆摆件",
+      "style": "漫画肖像",
+      "source": "https://uk.callie.com/personalized-exaggerated-western-comic-style-photo-heart-round-ceramic-ornament-with-text-tree-decor-christmas-gift-for-family-pdp-77665",
+      "observedFields": "照片、文字、圆形或心形",
+      "layoutSuggestion": "漫画肖像适配轮廓裁切，短文字避开顶部挂孔。",
+      "sourceImageCount": 7,
+      "images": [
+        {
+          "path": "/reference-assets/callie-28-1.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/a4f9cde4c65b2298d98438e39daad2bf.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/a4f9cde4c65b2298d98438e39daad2bf.png?d=600",
+          "role": "reference",
+          "label": "参考图 1"
+        },
+        {
+          "path": "/reference-assets/callie-28-2.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/82ddb77de5c43f7276797300547012ea.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/82ddb77de5c43f7276797300547012ea.png?d=600",
+          "role": "reference",
+          "label": "参考图 2"
+        },
+        {
+          "path": "/reference-assets/callie-28-3.png",
+          "source": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/90df053fcc847a9d2c8db0d34d655f61.png",
+          "downloadSource": "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/90df053fcc847a9d2c8db0d34d655f61.png?d=600",
+          "role": "reference",
+          "label": "参考图 3"
+        }
+      ],
+      "sourceImages": [
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/a4f9cde4c65b2298d98438e39daad2bf.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/82ddb77de5c43f7276797300547012ea.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/90df053fcc847a9d2c8db0d34d655f61.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/31536895e2a2f65b94efba457307968a.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/a2d97dce628510c1a6d6166ae8c11e91.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/9329e2e91dcbcede86477766a7d85f0f.png",
+        "https://d3ouql8tmwncoe.cloudfront.net/uploads/20261021/b707155bd48cb89ac7f9d98d0dadcb63.png"
+      ],
+      "baseImage": null,
+      "previewReady": false
+    }
+  ]
+}
