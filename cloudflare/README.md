@@ -88,3 +88,11 @@ Removing a gallery entry removes its product association. Uploaded files are ret
 The admin editor exposes a maximum of 12 product images, cover ordering, preview template/base, enabled design styles, bottom-text toggle, name limit, multi-name toggle, and existing color/style/accessory option lists. Template geometry remains the existing corduroy/tote geometry: uploaded bases must match it; arbitrary photos do not automatically gain print-region detection. Disabling or removing an option can require shoppers to reselect configurations already in their carts. Existing orders retain their stored personalization.
 
 Verification includes bounded/invalid/unauthorized uploads, byte-for-byte image retrieval, quota rejection, persisted galleries and templates, missing-image rejection, stale-update protection, and cart validation against database template changes. Local browser QA also checks WebP compression/upload/re-read, gallery cover sorting, saved styles and name limits.
+
+## Display photos versus customization bases
+
+A product’s cover/gallery and `customization.preview.baseImage` are separate roles. Administrators may upload a dedicated base (which is not added to the gallery) or mark a same-origin gallery image as the base. The gallery shows a base badge without changing cover order. Removing that image from the display gallery keeps the base reference. Replacing the base does not delete or reorder gallery images. Changing template type no longer silently replaces an explicitly selected base. A disabled preview can retain its base with `preview.enabled=false`; it is not rendered until re-enabled.
+
+The storefront starts with product photos. Editing names, bottom text or design options automatically switches to rendering the configured base. Switching back to photos does not clear personalization; zoom and cart previews use the same base. External image URLs remain display-only; upload them to the store before using them as a canvas base.
+
+Repository workflow: validate and commit locally after changes. Pushes, remote migrations and deployments require an explicit user request.
