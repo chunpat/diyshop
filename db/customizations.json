@@ -75,22 +75,51 @@
           "Green Flower",
           "White Flower"
         ]
+      },
+      {
+        "label": "Design Style",
+        "values": [
+          "Original",
+          "Botanical",
+          "Minimal"
+        ]
       }
     ],
     "preview": {
       "type": "corduroy",
       "baseImage": "/assets/preview-corduroy-cutout.png"
     },
-    "multipleNames": true
+    "multipleNames": true,
+    "textFields": [
+      {
+        "label": "Bottom Text",
+        "maxLength": 48
+      }
+    ]
   },
   "3": {
     "nameLimit": 13,
-    "fields": [],
+    "fields": [
+      {
+        "label": "Design Style",
+        "values": [
+          "Original",
+          "Botanical",
+          "Minimal"
+        ]
+      }
+    ],
     "preview": {
       "type": "corduroy",
       "baseImage": "/assets/preview-corduroy-cutout.png"
     },
-    "multipleNames": true
+    "multipleNames": true,
+    "textFields": [
+      {
+        "label": "Bottom Text",
+        "maxLength": 48
+      }
+    ]
   },
   "52": {
     "nameLimit": 13,
@@ -100,12 +129,26 @@
         "values": [
           "Small Open Top Tote Bag"
         ]
+      },
+      {
+        "label": "Design Style",
+        "values": [
+          "Christmas Classic",
+          "Botanical",
+          "Minimal"
+        ]
       }
     ],
     "preview": {
       "type": "christmas-tote",
       "baseImage": "/assets/preview-jute-blank.png"
     },
-    "multipleNames": true
+    "multipleNames": true,
+    "textFields": [
+      {
+        "label": "Bottom Text",
+        "maxLength": 48
+      }
+    ]
   }
 }

@@ -13,7 +13,8 @@ Run `npm run check`, `npm test`, `npm run test:password` and `npm run test:accou
 ## Features
 
 - 53 reference products; server-managed price, stock and availability
-- Live personalization previews for configured corduroy and Christmas tote products, including multiple names, zoom and cart previews
+- Live personalization previews for configured corduroy and Christmas tote products: original, botanical and minimal templates, independent bottom text, multiple names, full/close-up views and cart previews
+- [Design research and template model](docs/personalization-design-system.md)
 - English product customization and shipping → payment → review checkout
 - Signed-in account profile, shopping bag and wishlist, synchronized to the database
 - Personalized orders with shipping addresses and server-calculated USD totals
