@@ -1,0 +1,111 @@
+{
+  "0": {
+    "nameLimit": 8,
+    "fields": [
+      {
+        "label": "Bag Color",
+        "values": [
+          "Light Pink",
+          "Rose",
+          "Blue",
+          "Kiwi Green",
+          "Orange",
+          "Green",
+          "White"
+        ],
+        "colors": [
+          "#efd0d8",
+          "#d84186",
+          "#8bbfd5",
+          "#b9ca63",
+          "#ea8c45",
+          "#6c9e78",
+          "#f1ede6"
+        ]
+      },
+      {
+        "label": "Name Color",
+        "values": [
+          "Creamy White",
+          "Rose Pink",
+          "Pale Mint Green",
+          "Nude Pink",
+          "Avocado Green",
+          "Deep Orange",
+          "Bright Royal Blue",
+          "Deep Purple",
+          "Pale Purple",
+          "Red",
+          "Duckling Yellow",
+          "Black",
+          "Tangerine-Pinkish Ivory"
+        ],
+        "colors": [
+          "#f6edcc",
+          "#da4484",
+          "#b1d2bb",
+          "#dca0a1",
+          "#77935b",
+          "#d67439",
+          "#2e54b8",
+          "#684780",
+          "#b99dcd",
+          "#bd3338",
+          "#e6c65c",
+          "#323232",
+          "#edc2a9"
+        ]
+      },
+      {
+        "label": "Accessory",
+        "values": [
+          "Calico Cat",
+          "Orange Tabby Cat",
+          "Baby Elephant",
+          "Strawberry",
+          "Pink Rabbit",
+          "White Rabbit",
+          "Light Purple Flower",
+          "Orange Flower",
+          "Peach Pink Flower",
+          "Red Flower",
+          "Light Pink Flower",
+          "Blue Flower",
+          "Rose Red Flower",
+          "Green Flower",
+          "White Flower"
+        ]
+      }
+    ],
+    "preview": {
+      "type": "corduroy",
+      "baseImage": "/assets/preview-corduroy-cutout.png"
+    },
+    "multipleNames": true
+  },
+  "3": {
+    "nameLimit": 13,
+    "fields": [],
+    "preview": {
+      "type": "corduroy",
+      "baseImage": "/assets/preview-corduroy-cutout.png"
+    },
+    "multipleNames": true
+  },
+  "52": {
+    "nameLimit": 13,
+    "fields": [
+      {
+        "label": "Style",
+        "values": [
+          "Small Open Top Tote Bag"
+        ]
+      }
+    ],
+    "preview": {
+      "type": "christmas-tote",
+      "baseImage": "/assets/preview-jute-blank.png"
+    },
+    "multipleNames": true
+  }
+}

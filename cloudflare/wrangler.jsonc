@@ -1,0 +1,41 @@
+{
+  "name": "callie-gift-studio",
+  "main": "../.cloudflare-dist/index.js",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "../.cloudflare-dist/public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/",
+      "/admin",
+      "/admin.html",
+      "/api/*",
+      "/login",
+      "/signin-with-chatgpt",
+      "/signout-with-chatgpt",
+      "/setup",
+      "/activate"
+    ],
+    "html_handling": "none"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "callie-store-db",
+      "migrations_dir": "../drizzle",
+      "database_id": "a1e4baca-238f-48fa-bbd0-21c7a2baa444"
+    }
+  ],
+  "vars": {
+    "AUTH_MODE": "password"
+  },
+  "observability": {
+    "enabled": false
+  },
+  "account_id": "2a1f005a143e83feb871d22ea1678d91"
+}

@@ -44,3 +44,10 @@ yarn-error.log*
 
 # OS metadata
 .DS_Store
+
+# Standalone Cloudflare build output
+/.cloudflare-dist/
+/cloudflare/.cloudflare-dist/
+/cloudflare/account.json
+/cloudflare/deployment.json
+/cloudflare/deployments/

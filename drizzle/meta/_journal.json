@@ -15,6 +15,20 @@
       "when": 1793801743117,
       "tag": "0001_tan_gorilla_man",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793807400265,
+      "tag": "0002_icy_jubilee",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1793845108930,
+      "tag": "0003_accounts_and_product_details",
+      "breakpoints": true
     }
   ]
 }

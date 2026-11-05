@@ -1,0 +1,1 @@
+INSERT OR IGNORE INTO products (id,name,image,price,stock,active,updated_at) VALUES (52,'Your Christmas Magic Woven with Cheer - Personalized Name Jute Tote Bag','assets/product52.jpg',1700,100,1,strftime('%Y-%m-%dT%H:%M:%fZ','now'));
