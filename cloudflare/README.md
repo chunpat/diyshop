@@ -96,3 +96,7 @@ A product’s cover/gallery and `customization.preview.baseImage` are separate r
 The storefront starts with product photos. Editing names, bottom text or design options automatically switches to rendering the configured base. Switching back to photos does not clear personalization; zoom and cart previews use the same base. External image URLs remain display-only; upload them to the store before using them as a canvas base.
 
 Repository workflow: validate and commit locally after changes. Pushes, remote migrations and deployments require an explicit user request.
+
+## GitHub Actions
+
+[Manual deployment setup](../docs/github-actions-deployment.md) uses `.github/workflows/deploy-cloudflare.yml`. Only `workflow_dispatch` on `main` in `chunpat/diyshop` can deploy; ordinary pushes do not publish. Configure `CLOUDFLARE_API_TOKEN` in the `production` GitHub environment. The workflow checks/tests/builds before applying pending D1 migrations and deploying the verified bundle. Runtime Worker secrets are retained. Migrations and code deployment are not atomic; keep migrations backward compatible.

@@ -1,0 +1,80 @@
+name: Deploy to Cloudflare
+
+# Deliberately manual: commits and pushes must not publish the store.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.repository == 'chunpat/diyshop' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: production
+      url: https://callie.chunpat.cc
+    env:
+      CI: 'true'
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - name: Check out the selected commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci --include=dev --include=optional
+
+      - name: Check code and test the store API
+        run: |
+          npm run check
+          npm test
+
+      - name: Build the Worker and static assets
+        run: npm run build:cloudflare
+
+      - name: Test authentication and account permissions
+        run: |
+          node tests/password-auth.mjs
+          node tests/accounts.mjs
+          npm run test:cloudflare
+
+      - name: Validate the deployment bundle without publishing
+        run: node ./node_modules/wrangler/bin/wrangler.js deploy --dry-run --config cloudflare/wrangler.jsonc
+
+      - name: Check deployment credentials
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo '::error::Add CLOUDFLARE_API_TOKEN to the production environment secrets before deploying.'
+            exit 1
+          fi
+
+      # Only these steps receive Cloudflare credentials. No local OAuth files are used.
+      # The existing account, Worker and D1 IDs come from cloudflare/wrangler.jsonc.
+      - name: Apply pending production database migrations
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run db:migrate:cloudflare
+
+      - name: Deploy the verified Worker and static assets
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node ./node_modules/wrangler/bin/wrangler.js deploy --config cloudflare/wrangler.jsonc
+
+      - name: Record the deployed commit
+        run: |
+          printf 'Deployed commit: %s\n\nSite: https://callie.chunpat.cc\n' "$GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
