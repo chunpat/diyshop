@@ -1,19 +1,24 @@
 // The API is authoritative for catalog, account data and checkout.
-let backendReady=false, backendUser=null, serverVersion=0, stateQueue=Promise.resolve(), syncFailure=null, profileName='',checkoutKey=null;
+let catalogReady=false, backendReady=false, backendUser=null, serverVersion=0, stateQueue=Promise.resolve(), syncFailure=null, profileName='',checkoutKey=null;
 const api=async(path,options={})=>{const response=await fetch('/api'+path,{...options,headers:{'Content-Type':'application/json',...(options.headers||{})},credentials:'same-origin'});let data;try{data=await response.json()}catch{throw new Error('The server returned an unexpected response. Please try again.')}if(!response.ok){const error=new Error(data.error||'Request failed.');error.status=response.status;throw error}return data};
 function updateCounters(){$('#bag-count').textContent=cart.reduce((n,p)=>n+p.qty,0);$('#wish-count').textContent=wishes.length||''}
 function queueState(){if(!backendReady)return;const snapshot={name:profileName,cart:structuredClone(cart),wishes:[...wishes]};stateQueue=stateQueue.then(async()=>{if(syncFailure)return;try{const result=await api('/state',{method:'PUT',body:JSON.stringify({...snapshot,version:serverVersion})});serverVersion=result.version}catch(error){syncFailure=error;toast(error.status===409?'Your bag changed elsewhere. Reload to use the latest version.':'Unable to save changes. Check your connection and reload.')}})}window.queueState=queueState;
 async function flushState(){await stateQueue;if(syncFailure)throw syncFailure;if(!backendReady)throw new Error('Connect to your account before placing an order.');}
-function signIn(){openModal(`<div class="simple-modal"><span class="eyebrow">YOUR GIFTS, SAVED ACROSS DEVICES</span><h2>Welcome to your gift studio.</h2><p>Sign in to save your shopping bag, favorites, and orders.</p><a class="primary signin-link" href="/signin-with-chatgpt?return_to=%2F" target="_top">Sign in with ChatGPT →</a></div>`)}
-async function initializeBackend(){try{const me=await api('/me');backendUser=me;let result=await api('/products');if(!result.products.length&&me.isAdmin){await api('/admin/seed',{method:'POST',body:'{}'});result=await api('/products')}
+function signIn(){const returnTo='/'+location.hash;openModal(`<div class="simple-modal"><span class="eyebrow">YOUR GIFTS, SAVED ACROSS DEVICES</span><h2>Welcome to your gift studio.</h2><p>You can browse and preview gifts without signing in. An existing store account is required to save your bag and place an order.</p><a class="primary signin-link" href="/login?return_to=${encodeURIComponent(returnTo)}" target="_top">Sign in securely →</a></div>`)}
+async function initializeBackend(){try{
+ cart=[];wishes=[];updateCounters();
+ const result=await api('/products');
  if(!result.products.length)throw new Error('The catalog is being prepared. Please return shortly.');
- // Preserve presentation-only images while all product price and availability comes from the server.
- DATA.products=result.products;
- const state=await api('/state');cart=state.cart;wishes=state.wishes;profileName=state.name;serverVersion=state.version;backendReady=true;
- $('#account').title=me.user.name;updateCounters();renderProducts();$('#new-products').innerHTML=DATA.products.filter(p=>p.active).slice(28,33).map(card).join('');
+ DATA.products=result.products;catalogReady=true;
+ try{
+  const me=await api('/me');backendUser=me;
+  const state=await api('/state');cart=state.cart;wishes=state.wishes;profileName=state.name;serverVersion=state.version;backendReady=true;
+  $('#account').title=me.user.name;
+  if(me.isAdmin){const link=document.createElement('a');link.className='admin-link';link.href='/admin';link.textContent='Manage store ↗';$('.footer-bottom>div').prepend(link)}
+ }catch(error){if(error.status!==401)throw error;cart=[];wishes=[];$('#account').title='Sign in';}
+ updateCounters();renderProducts();$('#new-products').innerHTML=DATA.products.filter(p=>p.active).slice(28,33).map(card).join('');
  window.initCommerce?.();
- if(me.isAdmin){const link=document.createElement('a');link.className='admin-link';link.href='/admin';link.textContent='Manage store ↗';$('.footer-bottom>div').prepend(link)}
- }catch(error){if(error.status===401)signIn();else toast('Store connection failed: '+error.message);$('#catalog-eyebrow').textContent='OFFLINE PREVIEW — RECONNECT TO SAVE OR ORDER'}}
+ }catch(error){toast('Store connection failed: '+error.message);$('#catalog-eyebrow').textContent='OFFLINE PREVIEW — RECONNECT TO SAVE OR ORDER';window.initCommerce?.()}}
 const baseProductsFor=productsFor;productsFor=function(category){return baseProductsFor(category).filter(p=>p.active!==false)};
 const statusLabel={awaiting_payment:'Awaiting payment',paid:'Payment confirmed',processing:'Being personalized',shipped:'Shipped',completed:'Completed',cancelled:'Cancelled'};
 function orderHtml(order){return `<div class="order-card"><div class="order-top"><strong>${escapeHTML(order.id)}</strong><span class="status-badge ${order.status}">${statusLabel[order.status]||escapeHTML(order.status)}</span></div><small>${new Date(order.created_at).toLocaleString()} · USD</small>${order.items.map(item=>`<div class="order-line"><img src="${escapeHTML(/^https:\/\//.test(item.image)?item.image:'/'+item.image)}" alt=""><div>${escapeHTML(item.name)}<small>Personalization: ${escapeHTML(item.personalization)} · Qty ${item.quantity}${item.wrapping?' · Gift wrapped':''}</small></div><strong>${money(item.unit_price*item.quantity/100)}</strong></div>`).join('')}<div class="order-total"><span>${order.discount?`Discount −${money(order.discount/100)} · `:''}Total</span><strong>${money(order.total/100)}</strong></div><p class="order-address">${escapeHTML(order.customer)}<br>${escapeHTML(order.address.line1)} ${escapeHTML(order.address.line2||'')}<br>${escapeHTML(order.address.city)}, ${escapeHTML(order.address.region)} ${escapeHTML(order.address.postal)} · ${escapeHTML(order.address.country)}</p>${order.address.shippingMethod?`<p class="order-address">Shipping preference: ${escapeHTML({standard:'Standard',expedited:'Expedited',urgent:'Urgent'}[order.address.shippingMethod]||order.address.shippingMethod)} · Quote pending</p>`:''}${order.address.note?`<p class="order-address">Order note: ${escapeHTML(order.address.note)}</p>`:''}${order.tracking?`<p>Tracking: <strong>${escapeHTML(order.tracking)}</strong></p>`:''}${order.status==='awaiting_payment'?`<p class="checkout-notice">Your order is saved. Online payment is not configured. No money has been collected.</p><button class="outline-button cancel-order" data-cancel-order="${escapeHTML(order.id)}">Cancel unpaid order</button>`:''}</div>`}

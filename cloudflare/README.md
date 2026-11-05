@@ -6,7 +6,7 @@ This deployment belongs to the user's Cloudflare account and is independent of S
 
 The storefront, admin UI and shared `lib/api.ts` backend are reused. `cloudflare/worker.ts` is bundled directly into a small Cloudflare Worker to reduce framework overhead. Cloudflare D1 stores application data. Static assets are uploaded with the Worker. HTML canonicalization is disabled (`assets.html_handling=none`) so `/admin` can safely serve `/admin.html` without a redirect loop.
 
-The user selected standalone email/password authentication instead of activating Cloudflare Zero Trust. Zero Trust was not activated. `AUTH_MODE=password` enables `cloudflare/password-auth.ts`; caller-supplied Sites identity headers are never trusted. Business API routes and protected HTML pages require an authenticated account session; administrative routes additionally enforce assigned permissions. Public `/login` and one-time `/setup` pages are available. Static scripts and reference images contain no account data and can be served directly.
+The user selected standalone email/password authentication instead of activating Cloudflare Zero Trust. Zero Trust was not activated. `AUTH_MODE=password` enables `cloudflare/password-auth.ts`; caller-supplied Sites identity headers are never trusted. The storefront is public. Read-only active product listings and images referenced by active products are available to visitors; account state, orders, writes and protected admin HTML require an authenticated account session; administrative routes additionally enforce assigned permissions. Public `/login` and one-time `/setup` pages are available. Static scripts and reference images contain no account data and can be served directly.
 
 ## Current resources
 
@@ -27,7 +27,7 @@ The initial database seed contains 52 reference products; the live-preview catal
 - Sessions use random 256-bit tokens, hashed in D1. Cookies are `Secure`, `HttpOnly`, `SameSite=Strict`, and expire after seven days. Sign-out revokes the current session.
 - Sign-in/setup are limited to ten attempts per IP-derived bucket per 15 minutes. Raw IP addresses are not persisted. Cross-origin mutation requests are rejected.
 - `SETUP_KEY` can be removed once initialization is complete. Do not replace `AUTH_PEPPER` after a password is set: rotation requires resetting the password too.
-- This is a private application with an owner and invited staff accounts. Public customer registration, email verification and password recovery emails are not implemented.
+- The storefront can be browsed publicly; existing accounts consist of the owner and invited staff. Public customer registration, email verification and password recovery emails are not implemented.
 
 ## Commands
 
@@ -81,7 +81,7 @@ Validation: `npm run check`, `npm test`, `npm run test:password`, and `npm run t
 
 Migration `0004_square_ultron.sql` adds a product gallery, optional database customization overrides, and an uploaded-media table. Existing products fall back to the versioned catalog templates until an administrator saves an override. The first gallery item is the cover; uploads do not publish a product change until Save is clicked. The storefront renders the saved gallery and uses the same database configuration for preview and server-side cart/checkout validation.
 
-The current OAuth grant does not include R2 access. This small-store implementation stores bounded, base64-encoded raster media in D1 using existing bindings, with a 100 MiB encoded-media budget enforced atomically. Browser uploads accept JPEG/PNG/WebP sources up to 10 MiB, scale to at most 1600 px, retain transparency through WebP, and compress to at most 768 KiB. Raw uploads are streamed with a hard byte limit; the server checks signatures and MIME, enforces `products.write` and same-origin mutations, and serves images to authenticated users with `nosniff`. SVG/HTML uploads are not supported. The budget is an application safeguard, not a guarantee of free hosting; actual D1 storage and usage limits still apply. For a larger catalog, migrate image bytes behind the stable `/api/media/:id` URLs to object storage.
+The current OAuth grant does not include R2 access. This small-store implementation stores bounded, base64-encoded raster media in D1 using existing bindings, with a 100 MiB encoded-media budget enforced atomically. Browser uploads accept JPEG/PNG/WebP sources up to 10 MiB, scale to at most 1600 px, retain transparency through WebP, and compress to at most 768 KiB. Raw uploads are streamed with a hard byte limit; the server checks signatures and MIME, enforces `products.write` and same-origin mutations, and serves images with `nosniff`. Visitors can read only images referenced by an active product; unpublished uploads require authentication. SVG/HTML uploads are not supported. The budget is an application safeguard, not a guarantee of free hosting; actual D1 storage and usage limits still apply. For a larger catalog, migrate image bytes behind the stable `/api/media/:id` URLs to object storage.
 
 Removing a gallery entry removes its product association. Uploaded files are retained so saved orders and previous links remain valid; unused uploads also count toward the media budget. There is no automatic garbage collection or destructive asset deletion in this version. External HTTPS gallery links remain supported, but editable preview bases must be uploaded or local assets to keep Canvas same-origin.
 
@@ -100,3 +100,9 @@ Repository workflow: validate and commit locally after changes. Pushes, remote m
 ## GitHub Actions
 
 [Manual deployment setup](../docs/github-actions-deployment.md) uses `.github/workflows/deploy-cloudflare.yml`. Only `workflow_dispatch` on `main` in `chunpat/diyshop` can deploy; ordinary pushes do not publish. Configure `CLOUDFLARE_API_TOKEN` in the `production` GitHub environment. The workflow checks/tests/builds before applying pending D1 migrations and deploying the verified bundle. Runtime Worker secrets are retained. Migrations and code deployment are not atomic; keep migrations backward compatible.
+
+## Public storefront and login destinations
+
+In password mode, GET/HEAD `/` serves the storefront without a session. Visitors can read active products via GET `/api/products` and view only uploaded media linked to active product covers, galleries or customization bases. Account state, orders, checkout and administrative writes still require authentication. Existing Access-mode deployments keep their Access gate.
+
+The frontend treats a guest identity response as normal, loads the live catalog, and permits product browsing and live personalization previews. Saving a bag and ordering still requires an existing account; public customer registration is not part of this change. Opening the homepage no longer displays a login modal automatically. A storefront sign-in returns to its product/cart/checkout route; `/admin` redirects to login with an explicit admin return destination. Only a small set of same-site destinations is accepted. Setup and invitation activation continue to enter the admin area.

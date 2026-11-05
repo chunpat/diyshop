@@ -26,6 +26,23 @@ function productImage(value:unknown){try{return imagePath(value)}catch(e){throw 
 async function audit(db:D1Database,user:Identity,action:string,target:string,detail:unknown){await db.prepare('INSERT INTO audit_events (id,user_id,action,target_id,detail,created_at) VALUES (?,?,?,?,?,?)').bind(id(),user.userId,action,target,JSON.stringify(detail),now()).run()}
 async function orderView(db:D1Database,order:any){const items=await db.prepare('SELECT * FROM order_items WHERE order_id=? ORDER BY id').bind(order.id).all();const {user_id,idempotency_key,...safe}=order;return {...safe,address:JSON.parse(order.address),items:items.results}}
 async function ensureState(db:D1Database,user:Identity){await db.prepare('INSERT OR IGNORE INTO user_state (user_id,name,cart,wishes,version,updated_at) VALUES (?, ?, ?, ?, 0, ?)').bind(user.userId,'','[]','[]',now()).run();return await db.prepare('SELECT * FROM user_state WHERE user_id=?').bind(user.userId).first<any>()}
+// Public read-only storefront projection. Private API routes keep their identity guard.
+export async function publicStoreApi(req:Request,db:D1Database):Promise<Response|null>{
+ const path=new URL(req.url).pathname;
+ if(path==='/api/products'&&req.method==='GET'){
+  const rows=await db.prepare('SELECT * FROM products WHERE active=1 ORDER BY id').all();
+  return json({products:rows.results.map(row=>{const {updated_at,...product}=formatProduct(row);return product})});
+ }
+ if(/^\/api\/media\/[a-f0-9-]{36}$/.test(path)&&['GET','HEAD'].includes(req.method)){
+  // Only images currently published in a live product's gallery or preview are public.
+  const linked=await db.prepare(`SELECT id FROM products WHERE active=1 AND
+   (image=? OR EXISTS (SELECT 1 FROM json_each(products.gallery) WHERE value=?)
+    OR json_extract(customization_json,'$.preview.baseImage')=?) LIMIT 1`).bind(path,path,path).first();
+  if(!linked)return json({error:'Image not found.'},404);
+  return mediaApi(req,db,false,'');
+ }
+ return null;
+}
 export async function handleApi(req:Request,db:D1Database,user:Identity|null,adminEmails:string){try{
  const url=new URL(req.url),path=url.pathname.replace(/\/$/,''),method=req.method;
  if(method!=='GET'&&method!=='HEAD'){const origin=req.headers.get('origin');if(origin&&origin!==url.origin)throw new ApiError(403,'Cross-origin requests are not allowed.');}
